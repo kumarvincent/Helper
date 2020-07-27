@@ -17,7 +17,7 @@ local function get_helped_string(self, key)
 	local helped_string = {
 		main_menu = i18n("In this menu you will find all the available commands"),
 		start = i18n([[Hello %s 👋🏼, nice to meet you!
-I'm Group Butler, the first administration bot using the official Bot API.
+
 
 *I can do a lot of cool stuffs*, here's a short list:
 • I can *kick or ban* users
@@ -31,12 +31,11 @@ I'm Group Butler, the first administration bot using the official Bot API.
 I work better if you add me to the group administrators (otherwise I won't be able to kick or ban)!]]),
 		basics = i18n([[This bot works only in supergroups.
 
-To work properly, [it needs to be admin in your group](https://telegram.me/GroupButler_ch/104), so it can kick or ban people if needed.
-Only the group owner can promote it :)
+
 
 You can use `/, ! or #` to trigger a command.
 
-Group Butler saves the adminlist of a group in its databse to avoid to send too many requests to Telegram.
+Here it saves the adminlist of a group in its databse to avoid to send too many requests to Telegram.
 This list is updated every 5 hours, so there could be some differences between who the bot thinks are the admins and who the admins actually are, if during the 5 hours timeframe some users have been promoted/demoted.
 It's possible to force the bot to update its adminlist with `/cache`.
 
@@ -68,7 +67,7 @@ Admins need to give their consense to receive reports from users, with `/mysetti
 • `/setrules -`: delete the current rules.
 
 *Note*: the markdown is supported. If the text sent breaks the markdown, the bot will notify that something is wrong.
-For a correct use of the markdown, check [this post](https://telegram.me/GroupButler_ch/46) in the channel
+
 
 • `/setlink [link|-]`: set the group link, so it can be re-called by other admins, or unset it.
 If you are going to use it in a public supergroup, you do not need to append the group link. Just send `/setlink`
@@ -184,7 +183,7 @@ So with `/pin` you can generate a message to pin, and edit it how many times you
 
 *Note*: the translators are volunteers, so neither the correctness nor completeness of localizations can be guaranteed.
 
-You can help improve translations on our [Crowdin Project](https://crowdin.com/project/group-butler).
+
 
 *Special characters*
 
