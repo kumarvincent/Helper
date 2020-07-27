@@ -19,16 +19,9 @@ local function get_helped_string(self, key)
 		start = i18n([[Hello %s 👋🏼, nice to meet you!
 
 
-*I can do a lot of cool stuffs*, here's a short list:
-• I can *kick or ban* users
-• You can use me to set the group rules
-• I have a flexible *anti-flood* system
-• I can *welcome new users* with a customizable message, or if you want with a gif or a sticker
-• I can *warn* users, and ban them when they reach the maximum number of warnings
-• I can also warn, kick or ban users when they post a specific media
-…and more, below you can find the "all commands" button to get the whole list!
 
-I work better if you add me to the group administrators (otherwise I won't be able to kick or ban)!]]),
+
+I work better if you add me to the group administrators with full permission (otherwise I won't be able workto kick or ban)!]]),
 		basics = i18n([[This bot works only in supergroups.
 
 
